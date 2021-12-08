@@ -1,13 +1,8 @@
 
-.button {
-    background: blue;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.navbar {
+    background-color: #084298;
 }
 
-
-.navbar {
-    background_color: #000 ;
+.fa-bars {
+    color: white ;
 }
