@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, serif;
+    background: #cacaca  url(../images/Barter_login.jpg) no-repeat;
+	background-size:cover;
+}
+  /*#cacaca*/
+/*Blocco login*/
+.login-control {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Titolo Login*/
+.login-control h1 {
+    padding-bottom: 20px;
+    text-align: center;
+}
