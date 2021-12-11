@@ -6,17 +6,17 @@ app = Flask(__name__)
 
 @app.route('/')
 def home_app():
-    return render_template('HomeTemplate.html')
+    return render_template('index.html')
 
 
-@app.route('/LoginTemplate.html')
+@app.route('/login.html')
 def login():
-    return render_template('LoginTemplate.html')
+    return render_template('login.html')
 
 
-@app.route('/RegistrationTemplate.html')
+@app.route('/registrazione.html')
 def registration():
-    return render_template('RegistrationTemplate.html')
+    return render_template('registrazione.html')
 
 
 if __name__ == '__main__':
