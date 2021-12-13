@@ -1,0 +1,5 @@
+dbUser = 'Eddy'
+dbPass = 'password'
+dbHost = 'localhost'
+dbPort = '3306'
+dbSchema = 'db_WebAppBaratto'
